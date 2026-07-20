@@ -1,0 +1,24 @@
+flags: -mwb +fixed-nodes
+packages: haskell-debugger haskell-debugger/haskell-debugger-view
+package haskell-debugger
+  tests: False
+allow-newer:
+  , *:base
+  , *:ghc-bignum
+  , *:template-haskell
+  , *:async
+
+if (impl(ghc >= 9.14))
+  constraints:
+    async >= 2.2.6
+
+index-state: 2026-07-03T13:55:55Z
+
+-- source-repository-package
+--  type: git
+--  location: https://github.com/well-typed/haskell-debugger
+--  branch: debugging-fixes
+--  subdir: .
+--          haskell-debugger-view
+package ghc-server
+  executable-dynamic: True
