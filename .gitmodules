@@ -1,0 +1,7 @@
+[submodule "ghc-persistent-worker"]
+	path = ghc-persistent-worker
+	url = https://github.com/Saizan/ghc-persistent-worker.git
+	branch = dev/hdb
+[submodule "haskell-debugger"]
+	path = haskell-debugger
+	url = https://github.com/well-typed/haskell-debugger
