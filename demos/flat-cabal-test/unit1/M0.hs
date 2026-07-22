@@ -1,5 +1,4 @@
 {-# OPTIONS_GHC -fprefer-byte-code -fbyte-code-and-object-code -fwrite-if-simplified-core -fbreak-points #-}
-{-# LANGUAGE PackageImports #-}
 module M0 where
 
 import qualified M1

@@ -1,1 +1,1 @@
-{"args":[],"deps":["unit4","unit5"]}
+{"args": ["-fbyte-code-and-object-code","-fwrite-if-simplified-core","-fbreak-points"],"deps":["unit4","unit5"]}
