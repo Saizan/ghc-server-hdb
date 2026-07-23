@@ -1,3 +1,7 @@
+-- COPY OF ghc-persistent-worker/cabal.project
+-- with paths altered to fit this repo structure.
+-- use cabal.project.local for further settings.
+
 packages: ghc-persistent-worker/buck-proxy
           ghc-persistent-worker/ghc-proxy
           ghc-persistent-worker/ghc-server
