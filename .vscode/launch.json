@@ -26,6 +26,28 @@
       "entryArgs": [],
       "extraGhcArgs": [],
       "debugServer": 12345
+    },
+    {
+      "type": "haskell-debugger",
+      "request": "launch",
+      "name": "Production",
+      "projectRoot": "${workspaceFolder}/demos/production-test/",
+      "entryFile": "unit1/U1M0.hs",
+      "entryPoint": "main",
+      "entryArgs": [],
+      "extraGhcArgs": [],
+      "debugServer": 12345
+    },
+    {
+      "type": "haskell-debugger",
+      "request": "launch",
+      "name": "Deep",
+      "projectRoot": "${workspaceFolder}/demos/production-test/",
+      "entryFile": "unit1/U1M0.hs",
+      "entryPoint": "main",
+      "entryArgs": [],
+      "extraGhcArgs": [],
+      "debugServer": 12345
     }
   ]
 }
