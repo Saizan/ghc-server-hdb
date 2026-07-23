@@ -1,6 +1,7 @@
 module M0 where
 
 import qualified M1
+import Data.Map
 
 chunk0 :: Int
 chunk0 = M1.value

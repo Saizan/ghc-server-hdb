@@ -1,1 +1,2 @@
-{"args": ["-fbyte-code-and-object-code","-fwrite-if-simplified-core","-fbreak-points"],"deps":[]}
+{"args": ["-fbyte-code-and-object-code","-fwrite-if-simplified-core","-fbreak-points"
+,"-package containers"],"deps":[]}
