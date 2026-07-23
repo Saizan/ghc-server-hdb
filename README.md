@@ -1,10 +1,10 @@
-# Demo of **Haskell Debugger** integrated with **GHC Server**
+# GHC Server + Haskell Debugger demo
 
 This repo contains `ghc-server-hdb`, a variation of `ghc-server` with debugging support, and a few demo projects under `demos/`.
 
-## HOWTO
+## Usage
 
-Once the requirements are fulfilled, `ghc-server-hdb` can be started with
+Once the requirements are met (see below), `ghc-server-hdb` can be started with
 ```
 $ ./ghc-server-hdb.sh [--verbose] [--cabal] demos/<project-root>
 ```
@@ -19,7 +19,7 @@ different demo projects. Might need to be adapted if using other editors.
 The units will be compiled automatically when you start the debug session,
 they can also be compiled in advance with `cabal run ghc-client`.
 
-### Requirements
+## Requirements
 
 Requires GHC-9.14 with two patches:
   1. ModBreaks stored in .hi files (will be included in 9.14.2).
