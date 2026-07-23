@@ -1,4 +1,4 @@
-flags: -mwb +fixed-nodes
+flags: -mwb +fixed-nodes +modbreaks
 packages: haskell-debugger haskell-debugger/haskell-debugger-view
 package haskell-debugger
   tests: False
